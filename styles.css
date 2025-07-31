@@ -1,0 +1,16 @@
+body {
+  background-image: url('newbackground.png');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#dice-container img {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+#dice-container img:hover {
+  transform: scale(1.1);
+}
