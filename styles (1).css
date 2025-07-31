@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("images/newbackground.png") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 40px;
+}
+
+.step-box {
+  border: 1px solid #ddd;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step-label {
+  position: relative;
+  background-color: #f9c2c2;
+  color: #d94a4a;
+  font-weight: bold;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#cake {
+  width: 150px;
+  margin: 30px auto;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 15px;
+}

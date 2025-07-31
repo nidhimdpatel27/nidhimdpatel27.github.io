@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guest Table Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <img id="cake" src="cake.png" alt="Cake Image" />
+
+  <div class="step-box" id="step1">
+    <div class="step-label">1</div>
+    <div><strong>How many guests do you have?</strong></div><br />
+    <input type="number" id="guestsInput" placeholder="e.g. 11 guests" /><br />
+    <button onclick="nextStep1()">OK</button>
+  </div>
+
+  <div class="step-box" id="step2" style="display: none;">
+    <div class="step-label">2</div>
+    <div><strong>How many tables do you want?</strong></div><br />
+    <input type="number" id="tablesInput" placeholder="e.g. 3 tables" /><br />
+    <button onclick="nextStep2()">OK</button>
+  </div>
+
+  <div class="step-box" id="step3" style="display: none;">
+    <div class="step-label">3</div>
+    <div><strong>Your guests will be seated as follows:</strong></div>
+    <div id="result"></div><br />
+    <button onclick="location.reload()">Start Over</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
